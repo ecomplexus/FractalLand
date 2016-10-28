@@ -31,12 +31,10 @@ double fbmLand::calcDh(vector < vector <int> > *mat, int tam, double th)
     long m;
     long nB,nW,c;
     int esc;
-    double escMin,escd;
     long cTotal=0;
 
     vector <int> nCaixas;
     vector <int> escala;
-    int x;
 
     divisores(&escala,tam);
 
@@ -94,7 +92,6 @@ double fbmLand::calcDb(vector < vector <int> > *mat,int tam,double th)
     long m;
     long nB,nW,c;
     int esc;
-    double escMin,escd;
     long cTotal=0;
 
     vector <int> nCaixas;
